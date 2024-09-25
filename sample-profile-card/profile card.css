@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card-container {
+  display: inline-block;
+  width: 300px;
+  border-radius: 13px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.upper-section {
+  background-color: rgb(62, 113, 242);
+  display: flex;
+  height: 85px;
+  padding: 10px;
+  border-radius: 13px 13px 0 0;
+  position: relative;
+  margin-bottom: 10px;
+}
+.lower-section {
+  display: flex;
+  height: 220px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.lower-section div {
+  margin-top: 4px;
+  display: flex;
+}
+.about {
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-weight: 500;
+  font-size: 18px;
+}
+.work {
+  font-size: 12px;
+}
+.buttons button {
+  background-color: rgb(62, 113, 242);
+  color: white;
+  padding: 7px 14px;
+  border: 1px solid rgb(62, 113, 242);
+  margin: 8px;
+  border-radius: 20px;
+}
+.actions {
+  display: flex;
+}
+.actions div {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.actions img {
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+  margin-right: 4px;
+}
+.bar {
+  margin-bottom: 7px;
+  margin-left: 14px;
+}
+.socials img {
+  width: 30px;
+  height: 30px;
+}
+.facebook img,
+.twitter img,
+.instagram img {
+  margin-right: 9px;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 10px;
+}
