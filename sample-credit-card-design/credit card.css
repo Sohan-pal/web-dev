@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Ensures the body takes up the full viewport height */
+  margin: 0; /* Removes any default margin */
+}
+
+.card-container {
+  display: inline-block;
+  width: 370px;
+  background-color: black;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 15px;
+  border-radius: 30px;
+}
+.card-container div {
+  display: flex;
+  height: 60px;
+}
+.logo {
+  width: 55px;
+  height: 36px;
+  margin-right: 15px;
+}
+.chip {
+  width: 64px;
+  height: 40px;
+  margin-left: 150px;
+}
+.top-section {
+  display: flex;
+  align-items: center;
+}
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.card-number-text {
+  font-size: 13px;
+  margin-bottom: -17px;
+}
+.card-number {
+  font-size: 19px;
+  letter-spacing: 5px;
+}
+.additional-details {
+  display: flex;
+  flex-direction: column;
+}
+.Valid-Thru {
+  margin-bottom: -20px;
+}
+.bottom-section {
+  display: flex;
+  align-items: last baseline;
+  justify-content: space-between;
+}
